@@ -24,7 +24,7 @@ author:
       url: "https://linkedin.com/in/valeriagarcia"
     - label: "Resume"
       icon: "fas fa-file"
-      url: "/assets/files/Valeria_Garcia_Resume.pdf" # upload your resume to that path
+      url: "/assets/Valeria_Garcia_Resume.pdf" # upload your resume to that path
 
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "air" # try "pink", "default", or "air" for soft themes
