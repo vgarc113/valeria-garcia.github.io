@@ -9,13 +9,13 @@ url: "https://valeria-garcia.github.io" # your site URL
 # Social Links
 author:
   name: Valeria Garcia
-  avatar: "/assets/images/avatar.png" # upload a cute profile photo to this path
+  avatar: "/assets/images/valeria-avatar.jpg"  # upload a cute profile photo to this path
   bio: |
     First-gen Latina in STEM, passionate about tech, research, and equity.
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:valeria@email.com"
+      url: "mailto:valegarcia16@icloud.com"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/valeriagarcia"
