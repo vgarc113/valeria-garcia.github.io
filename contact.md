@@ -40,4 +40,8 @@ Or just fill out this quick form and I’ll get back to you soon:
   </button>
 </form>
 
-> (💡 Tip: Replace `your-form-id` with a real [Formspree](https://formspree.io/) or [Google Forms](https://forms.google.com) form link if you want to receive submissions!)
+---
+
+### 📚 Bonus
+If you're reaching out just to share your favorite book, even better. I'm always building my TBR list! 📖✨
+
