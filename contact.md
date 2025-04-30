@@ -18,7 +18,7 @@ Whether you're a recruiter, researcher, fellow coder, or someone with a great bo
 
 Or just fill out this quick form and I’ll get back to you soon:
 
-<form action="https://formspree.io/f/your-form-id" method="POST">
+<form action="https://formspree.io/f/mvgazlbr" method="POST">
   <label for="name">Your Name</label><br>
   <input type="text" name="name" required><br><br>
   <label for="email">Your Email</label><br>
@@ -35,7 +35,9 @@ Or just fill out this quick form and I’ll get back to you soon:
     border-radius: 25px;
     box-shadow: 1px 2px 6px rgba(0,0,0,0.1);
     cursor: pointer;
-  ">
+    transition: all 0.3s ease-in-out;
+  " onmouseover="this.style.backgroundColor='#f48fb1'; this.style.transform='scale(1.05)';"
+     onmouseout="this.style.backgroundColor='#f8bbd0'; this.style.transform='scale(1)';">
     ✨ Send Message
   </button>
 </form>
