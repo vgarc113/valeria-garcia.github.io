@@ -10,7 +10,7 @@ Looking to collaborate, hire, or learn more about me? Hereâ€™s my full resume â€
 
 <div style="text-align: center; margin-top: 2em;">
 
-  <a href="/assets/files/Valeria_Garcia_Resume.pdf" target="_blank" style="
+  <a href="/assets/Valeria_Garcia_Resume.pdf" target="_blank" style="
     display: inline-block;
     background-color: #fce4ec;
     color: #5e2a60;
