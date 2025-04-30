@@ -29,13 +29,6 @@ Looking to collaborate, hire, or learn more about me? Hereâ€™s my full resume â€
 
   <br><br>
 
-  <img src="/assets/images/resume-preview.png" alt="Resume preview" style="
-    max-width: 400px;
-    width: 90%;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    margin-top: 2em;
-  ">
 </div>
 
 ---
