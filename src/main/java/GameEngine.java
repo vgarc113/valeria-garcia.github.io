@@ -1,4 +1,3 @@
-package src.main.java;
 
 public class GameEngine {
     private static final int MAX_ATTEMPTS = 10;
@@ -18,7 +17,6 @@ public class GameEngine {
     }
 
     public GuessResult makeGuess(int guess) {
-        // User chooses to quit
         if (guess < 0) {
             userQuit = true;
             return new GuessResult(false, "Exiting game...", attempts);
@@ -26,13 +24,11 @@ public class GameEngine {
 
         attempts++;
 
-        // Check max attempts
-        if (attempts > MAX_ATTEMPTS) {
+        if (attempts >= MAX_ATTEMPTS) {
             gameOver = true;
             return new GuessResult(false, "Game Over! You've used all " + MAX_ATTEMPTS + " attempts. The number was " + target + ".", attempts);
         }
 
-        // Check guess
         if (guess == target) {
             gameWon = true;
             return new GuessResult(true, "Correct! You guessed it in " + attempts + " attempts.", attempts);
@@ -51,4 +47,46 @@ public class GameEngine {
 
     public void reset() {
         target = Utils.randomInt(min, max);
-        attempts =
+        attempts = 0;
+        gameWon = false;
+        userQuit = false;
+        gameOver = false;
+    }
+
+    public boolean isGameWon() {
+        return gameWon;
+    }
+
+    public boolean hasUserQuit() {
+        return userQuit;
+    }
+
+    public boolean isGameOver() {
+        return gameOver;
+    }
+
+    public int getAttempts() {
+        return attempts;
+    }
+
+    public int getMaxAttempts() {
+        return MAX_ATTEMPTS;
+    }
+
+    public int getMin() {
+        return min;
+    }
+
+    public int getMax() {
+        return max;
+    }
+
+    // For testing purposes
+    protected void setTarget(int target) {
+        this.target = target;
+    }
+
+    protected int getTarget() {
+        return target;
+    }
+}
