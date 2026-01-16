@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         GameEngine engine = new GameEngine(1, 100);
-        GameUI ui = new GameUI(engine, scanner);
+        GameUI ui = new GameUI(engine);
 
         boolean playAgain = true;
         while (playAgain) {
