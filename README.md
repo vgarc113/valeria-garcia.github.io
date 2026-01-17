@@ -9,22 +9,23 @@
 
 ## Git Workflow Reflection
 
-Differences between strategies
+What I learned about merge, rebase, squash, and cherry-pick
 
-- Merge: preserves full history, may introduce merge commits
-- Rebase: rewrites history to be linear
-- Squash: combines multiple commits into one clean commit
-- Cherry-pick: applies a single commit to another branch
+Merge: Combines branches and keeps all the little commits. Handy when you don’t care about making history super clean.
+Rebase: Moves your commits on top of another branch, so history looks linear. Good for cleaning up before merging into dev.
+Squash: Smashes multiple commits into one. Perfect when your feature branch has a bunch of messy "fix typo" or "oops" commits.
+Cherry-pick: Grabs one specific commit from another branch. Super useful for hotfixes without bringing in extra stuff.
 
-What you observed
+What I noticed in this project
 
-- Feature1: messy history due to direct merges
-- Feature2: cleaner but still shows conflict resolution commits
-- Feature3: cleanest history due to squashing before merge
+Feature1: History was simple, no big deal.
+Feature2: Got a little messy with conflicts and lots of small commits.
+Feature3: Squashing before merging kept dev nice and clean. Only one commit showed the whole feature, which made the history easy to read.
 
-When to use each
+When I’d use these in real life
 
-- Merge: collaborative work with shared history
-- Rebase: clean up local feature branches
-- Squash: finalize features before merging into dev
-- Cherry-pick: apply urgent hotfixes without pulling unrelated changes
+Merge: When you just want to combine branches without rewriting history. Team projects are perfect for this.
+Rebase: Before merging a feature branch so the main branch stays linear. Makes history easier to follow.
+Squash: When your feature branch has lots of tiny, messy commits. Makes dev look clean.
+Cherry-pick: When you need to apply a single hotfix without touching other ongoing work.
+
